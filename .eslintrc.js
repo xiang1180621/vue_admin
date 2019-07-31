@@ -61,7 +61,7 @@ module.exports = {
     // 对象字面量的键值空格风格
     'key-spacing': 0,
     // if语句包含一个return语句， else就多余
-    'no-else-return': 2,
+    'no-else-return': 0,
     // 建议将经常出现的数字提取为变量
     'no-magic-numbers': [0, { ignoreArrayIndexes: true }],
     // 不允许重复声明变量
