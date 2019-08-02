@@ -28,6 +28,7 @@ module.exports = {
     'spaced-comment': 0,
     'no-trailing-spaces': 0,
     'vue/no-unused-components': 0,
+    'vue/no-parsing-error':0,
     // 允许使用分号
     'semi': [0, 'never'],
     // 允许使用==

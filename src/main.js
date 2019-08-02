@@ -5,7 +5,7 @@ import store from './store'
 import iView from 'iview'
 import config from '@/config'
 
-import './index.less'
+import '@/index.less'
 import '@/assets/icons/iconfont.css'
 
 if (process.env.NODE_ENV !== 'production') require('@/mock')
@@ -23,7 +23,8 @@ Vue.config.productionTip = false
 Vue.prototype.$config = config
 
 new Vue({
+  el:'#app',
   router,
   store,
   render: h => h(App)
-}).$mount('#app')
+})
